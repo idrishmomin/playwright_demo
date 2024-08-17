@@ -1,0 +1,39 @@
+{
+  "name": "playwritedemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "orangeHRM": "npx playwright test --config=config/orangeHRM.config.ts  --grep @smoke"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.9.0",
+    "@playwright/test": "^1.45.3",
+    "@types/adm-zip": "^0.5.5",
+    "@types/crypto-js": "^4.2.2",
+    "@typescript-eslint/eslint-plugin": "^7.8.0",
+    "@typescript-eslint/parser": "^7.8.0",
+    "adm-zip": "^0.5.12",
+    "allure-playwright": "^2.15.1",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.57.0",
+    "eslint-plugin-import": "^2.29.1",
+    "exceljs": "^4.4.0",
+    "lighthouse": "^9.6.8",
+    "npm": "^10.7.0",
+    "pdfjs-dist-es5": "^2.13.216",
+    "pg": "^8.11.5",
+    "playwright-html": "^1.2.5",
+    "typescript": "^5.4.5",
+    "winston": "^3.13.0"
+  },
+  "dependencies": {
+    "browserstack": "^1.6.1",
+    "browserstack-local": "^1.4.8"
+  }
+}
