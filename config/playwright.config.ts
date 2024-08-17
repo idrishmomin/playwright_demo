@@ -66,7 +66,7 @@ export const config = defineConfig({
         navigationTimeout: 600000, // Timeout for each navigation
 
         //Browser Mode
-        headless: false,
+        headless: true,
 
         //Browser height and width
         viewport: { width: 1500, height: 730 },
